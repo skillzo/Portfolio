@@ -635,6 +635,12 @@ section {
   height: 400px;
   margin: 2em;
 }
+@media (min-width: 1024px) {
+  .portfolio-wrap {
+    height: 600px;
+    margin: 3em;
+  }
+}
 .portfolio-wrap img {
   width: 100%;
   height: 100%;
@@ -653,6 +659,7 @@ section {
   align-items: center;
   border-radius: 10px;
   opacity: 0;
+  border: 1px solid black;
 }
 .portfolio-info:hover,
 .portfolio-info:active {
